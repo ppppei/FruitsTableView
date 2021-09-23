@@ -13,6 +13,8 @@
 		FA1044C526FC2C1100127854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1044C326FC2C1100127854 /* Main.storyboard */; };
 		FA1044C726FC2C1400127854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1044C626FC2C1400127854 /* Assets.xcassets */; };
 		FA1044CA26FC2C1400127854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1044C826FC2C1400127854 /* LaunchScreen.storyboard */; };
+		FA1044D526FC495F00127854 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1044D326FC495F00127854 /* TableViewCell.swift */; };
+		FA1044D626FC495F00127854 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1044D426FC495F00127854 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FA1044C626FC2C1400127854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1044C926FC2C1400127854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1044CB26FC2C1400127854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1044D326FC495F00127854 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FA1044D426FC495F00127854 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FA1044C626FC2C1400127854 /* Assets.xcassets */,
 				FA1044C826FC2C1400127854 /* LaunchScreen.storyboard */,
 				FA1044CB26FC2C1400127854 /* Info.plist */,
+				FA1044D326FC495F00127854 /* TableViewCell.swift */,
+				FA1044D426FC495F00127854 /* TableViewCell.xib */,
 			);
 			path = FruitsTableView;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1044CA26FC2C1400127854 /* LaunchScreen.storyboard in Resources */,
+				FA1044D626FC495F00127854 /* TableViewCell.xib in Resources */,
 				FA1044C726FC2C1400127854 /* Assets.xcassets in Resources */,
 				FA1044C526FC2C1100127854 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1044C226FC2C1100127854 /* ViewController.swift in Sources */,
+				FA1044D526FC495F00127854 /* TableViewCell.swift in Sources */,
 				FA1044BE26FC2C1100127854 /* AppDelegate.swift in Sources */,
 				FA1044C026FC2C1100127854 /* SceneDelegate.swift in Sources */,
 			);
